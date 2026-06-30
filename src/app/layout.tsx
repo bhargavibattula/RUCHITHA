@@ -91,9 +91,9 @@ export default function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
-      className={`${geistSans.variable} ${geistMono.variable} ${instrumentSerif.variable} h-full scroll-smooth antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${instrumentSerif.variable} antialiased`}
     >
-      <body className="relative min-h-full overflow-x-hidden">
+      <body className="relative overflow-x-hidden">
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
