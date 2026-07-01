@@ -17,7 +17,7 @@ export const profile = {
   github: "https://github.com/Ruchitha6659",
   leetcode: "https://leetcode.com/u/Ruchigedela/",
   image: "/profile.png",
-  resumeFile: "https://drive.google.com/file/d/1o8pj8XHzVM-KoMjd5mr21D_FvmlDaIfg/view?usp=sharing",
+  resumeFile: "https://drive.google.com/file/d/1PP7xGTkTN8rkmniwQzUrO1vfY4gt_Jr9/view?usp=sharing",
   summary:
     "B.Tech AI & ML student building production AI systems — from retrieval-augmented chatbots to a published VS Code extension with 1,000+ installs. I care about systems that ship, not just systems that demo.",
   longSummary:
@@ -169,62 +169,6 @@ export const projects = [
     links: {
       github: "https://github.com/Ruchitha6659/fake-news-detection",
       live: "https://github.com/Ruchitha6659/fake-news-detection",
-      liveLabel: "Source Code",
-    },
-  },
-  {
-    id: "finsolve-chatbot",
-    title: "FinSolve Chatbot",
-    subtitle: "Financial Advisory Assistant",
-    period: "Mar 2026 – Apr 2026",
-    description:
-      "An AI-powered financial advisory chatbot providing real-time investment advice, stock insights, and portfolio guidance.",
-    longDescription:
-      "FinSolve helps users navigate complex financial planning. Leveraging LangChain pipelines and financial market APIs, it answers investment queries, tracks live market indices, and creates tailored portfolio allocation suggestions. It features persistent memory and safe-guard parameters to avoid giving unqualified financial tips.",
-    stack: ["Python", "LangChain", "Yahoo Finance API", "OpenAI GPT-4", "Streamlit"],
-    features: [
-      "Real-time stock price and market data retrieval",
-      "Personalized asset allocation and portfolio modeling",
-      "Secure session memory for ongoing advice chats",
-      "Financial guardrails and advice disclaimers",
-    ],
-    metrics: [
-      { label: "Query latency", value: "1.2s" },
-      { label: "Advice accuracy", value: "88%" },
-      { label: "Advisory sessions", value: "300+" },
-    ],
-    image: "/projects/finsolve-chatbot.png",
-    links: {
-      github: "https://github.com/Ruchitha6659/finsolve_chatbot",
-      live: "https://github.com/Ruchitha6659/finsolve_chatbot",
-      liveLabel: "Source Code",
-    },
-  },
-  {
-    id: "codealpha-translator",
-    title: "CodeAlpha Translator",
-    subtitle: "Multilingual Translation Web App",
-    period: "Jan 2026 – Feb 2026",
-    description:
-      "A responsive, high-performance web-based translator application powered by open translation APIs and rich modern styling.",
-    longDescription:
-      "A translation application built to showcase smooth CSS and reactive UI transitions. Deployed with a modern dark-mode design, it translates between 10+ languages instantly with voice synthesis support, copy-to-clipboard actions, and a highly responsive design optimized for mobile and desktop screens.",
-    stack: ["JavaScript", "HTML5", "Vanilla CSS", "MyMemory Translation API"],
-    features: [
-      "Instant translation between 10+ major languages",
-      "Text-to-speech voice synthesis for translations",
-      "One-click copy to clipboard functionality",
-      "Premium responsive CSS layout with modern purple accents",
-    ],
-    metrics: [
-      { label: "Supported languages", value: "10+" },
-      { label: "Translation latency", value: "250ms" },
-      { label: "User satisfaction", value: "95%" },
-    ],
-    image: "/projects/translator-app.png",
-    links: {
-      github: "https://github.com/Ruchitha6659/CodeAlpha_LanguageTranslator",
-      live: "https://github.com/Ruchitha6659/CodeAlpha_LanguageTranslator",
       liveLabel: "Source Code",
     },
   },
